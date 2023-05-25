@@ -22,4 +22,4 @@ jobs:
 
       - name: Create S3 bucket
         run: |
-          aws s3api create-bucket --bucket my-bucket-name --region us-east-1
+          aws s3api create-bucket --bucket sais-s3-bucket-2345 --region us-east-1
